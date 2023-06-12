@@ -46,6 +46,10 @@
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
+        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
+        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
@@ -222,9 +226,9 @@
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
       </a>
-      <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Retention-Policy-Restrictions.md">
-        <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
-        <div class="subtopic_description">Automatic deletion of the project associated with a lab</div>
+      <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
+        <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
+        <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
@@ -258,6 +262,10 @@
         <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>       
+      <a class="subtopic_link" href="/lod/instruction-sets.md">
+        <div class="subtopic_title">Instruction Sets.</div>
+        <div class="subtopic_description">Instruction Sets allow a Lab Profile to have multiple versions of instructions..</div>
+      </a>    
             <a class="subtopic_link" href="/lod/internet-loss.md">
         <div class="subtopic_title">Internet Loss in a Lab</div>
         <div class="subtopic_description">Steps to mitigate issues due to loss of internet in a lab environment.</div>
