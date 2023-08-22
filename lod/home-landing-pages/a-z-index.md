@@ -34,6 +34,10 @@
         <div class="subtopic_title">Activity Based Assessment Outcomes</div>
         <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
       </a>
+      <a class="subtopic_link" href="/lod/add-tenant-id-text-entry-to-subscription-pool.md">
+        <div class="subtopic_title">Add Tenant ID Text to Subscription Pool</div>
+        <div class="subtopic_description">This enhancement enables lab admins to utilize an updated script for scoring labs effectively.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
@@ -45,10 +49,6 @@
       <a class="subtopic_link" href="/lod/vm-auto-login.md">
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
-        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
-        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
       </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
@@ -194,6 +194,10 @@
         <div class="subtopic_title">Datacenter Bandwidth Limits</div>
         <div class="subtopic_description">Upload and download speeds in Skillable datacenters.</div>
       </a>
+      <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
+        <div class="subtopic_title">Device Registration for Lab Access</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
+      </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
         <div class="subtopic_description">Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.</div>
@@ -206,11 +210,19 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
+      <a class="subtopic_link" href="/lod/email-verification-workflow-for-two-factor-authentication-two-fa.md">
+        <div class="subtopic_title">Email Verification Workflow for 2FA</div>
+        <div class="subtopic_description">An enhanced email verification workflow for Two-Factor Authentication (2FA) on our platform.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
-            <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
+      <a class="subtopic_link" href="/lod/enforce-two-fa-when-ip-address-or-location-changes.md">
+        <div class="subtopic_title">Enforce 2FA When IP Address or Location Changes.</div>
+        <div class="subtopic_description">Enforce Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
         <div class="subtopic_title">Excessive Lab Launch Times</div>
         <div class="subtopic_description">Explanation of excessive lab launch times.</div>
       </a>
@@ -229,6 +241,13 @@
       <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
         <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md">
+        <div class="subtopic_title">Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them</div>
+        <div class="subtopic_description">Implements the deletion of user accounts instead of merely disabling or suspending them.</div>
+      <a class="subtopic_link" href="/lod/gcp-projects-available-pool-logic-change-replenishment.md">
+        <div class="subtopic_title">Google Cloud Platform: Projects Available Pool Logic Change; Replenishment</div>
+        <div class="subtopic_description">Implements automatic project replenishment and tests project deletion, lab users can seamlessly continue their work without interruption.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
@@ -370,6 +389,10 @@
         <div class="subtopic_title">Missing Files in a Lab Instance</div>
         <div class="subtopic_description">Information that should be gathered and reported, to assist with missing files that are needed to complete steps in lab instructions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-require-security-review-logic-acp-edit-page.md">
+        <div class="subtopic_title">Modify ACP to Read Only (Blessed)</div>
+        <div class="subtopic_description">Provides functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
@@ -393,6 +416,10 @@
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
+        <div class="subtopic_title">Require Device Registration for Advanced Lab Access Security</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
       </a>
       <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
         <div class="subtopic_title">Skillable Enhanced Account Security</div>
@@ -465,6 +492,13 @@
       <a class="subtopic_link" href="/lod/lod-themes.md">
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
+        <div class="subtopic_title">Update Azure Reference versions</div>
+        <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+      <a class="subtopic_link" href="/lod/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>
